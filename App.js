@@ -59,7 +59,7 @@ export default function App() {
       <TouchableOpacity style={styles.button} onPress={generatePass}>
         <Text style={styles.buttonText}>Gerar senha</Text>
       </TouchableOpacity>
-
+df
       {password !== '' && (
         <View style={styles.area}>
           <Text style={styles.password} onLongPress={copyPass}>{password}</Text>
